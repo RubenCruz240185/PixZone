@@ -9,8 +9,8 @@ function Encabezado() {
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Galería</a></li>
-                        <li><a href="#">Sobre nosotros</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Sobre Nosotros</a></li>
                     </ul>
                 </nav>
             </div>
