@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Utilidad general de contenedor */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 5vw, 2rem);
+  box-sizing: border-box;
+}
+
+/* Garantizar que las imágenes se adapten */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablas responsive */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
