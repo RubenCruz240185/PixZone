@@ -1,10 +1,10 @@
 /* Estilos del Pie de Página */
 .pie-de-pagina {
-  background-color: #2c3e50;
-  color: #ecf0f1;
+  background-color: #6AAFB0;
+  color: #386641;
   padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(0.75rem, 2vw, 1rem) 0;
   margin-top: auto;
-  border-top: 1px solid #34495e;
+  border-top: 2px solid #6a994e;
   width: 100%;
 }
 
@@ -48,10 +48,16 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #ecf0f1;
-  color: #2c3e50;
+  background: #6a994e;
+  color: #f2e8cf;
   text-decoration: none;
   font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.social:hover {
+  background: #386641;
+  transform: scale(1.1);
 }
 
 .right-links {
@@ -69,7 +75,7 @@
 .footer-left h3 {
   font-size: clamp(0.95rem, 2.5vw, 1.3rem);
   margin: 0 0 0.5rem 0;
-  color: white;
+  color: #386641;
   font-weight: 600;
 }
 
@@ -77,25 +83,29 @@
   font-size: clamp(0.9rem, 2vw, 1rem);
   margin: 0;
   line-height: 1.6;
-  color: #ecf0f1;
+  color: #386641;
 }
 
 .right-links a {
-  color: #ecf0f1;
+  color: #386641;
   text-decoration: none;
   font-size: clamp(0.85rem, 2vw, 0.95rem);
   transition: color 0.25s ease;
+  font-weight: 500;
 }
 
-.right-links a:hover { color: #3498db; }
+.right-links a:hover {
+  color: #6a994e;
+  text-decoration: underline;
+}
 
 /* Footer Bottom */
 .footer-bottom {
   text-align: center;
   padding-top: clamp(0.75rem, 2vw, 1.5rem);
-  border-top: 1px solid #34495e;
+  border-top: 1px solid #a7c957;
   font-size: clamp(0.8rem, 1.5vw, 0.9rem);
-  color: #95a5a6;
+  color: #6a994e;
 }
 
 .footer-bottom p {

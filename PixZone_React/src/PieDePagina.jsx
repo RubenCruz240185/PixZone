@@ -6,7 +6,7 @@ function PieDePagina() {
             <div className="container">
                 <div className="footer-split">
                     <div className="footer-left">
-                        <h3>Sobre PixZone</h3>
+                        <h3>PixZone</h3>
                         <p>Una plataforma dedicada a los amantes de la fotografía. Comparte, descubre y conecta con creadores visuales.</p>
                     </div>
 
@@ -21,11 +21,10 @@ function PieDePagina() {
                         </div>
 
                         <div className="right-links">
-                            <a href="#">Terms of Service</a>
-                            <a href="#">General Terms and Conditions</a>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Cookie Policy</a>
-                            <a href="#">Imprint</a>
+                            <a href="#">Terminos de Servicio</a>
+                            <a href="#">Terminos y Condiciones</a>
+                            <a href="#">Politicas de Privacidad</a>
+                            <a href="#">Cookies</a>
                         </div>
 
                         <div className="footer-copy">

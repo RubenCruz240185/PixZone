@@ -3,6 +3,7 @@
   flex: 1;
   padding: clamp(1.5rem, 5vw, 3rem) 0;
   width: 100%;
+  background-color: #f2e8cf;
 }
 
 .contenido .container {
@@ -14,12 +15,12 @@
 
 /* Sección Hero */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background-color: #6a994e;
+  color: #f2e8cf;
   padding: clamp(1.5rem, 6vw, 3rem) clamp(1rem, 4vw, 2rem);
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(56, 102, 65, 0.2);
   width: 100%;
   box-sizing: border-box;
 }
@@ -38,18 +39,19 @@
 
 /* Sección de Contenido */
 .content-section {
-  background: white;
+  background: #f2e8cf;
   padding: clamp(1rem, 4vw, 2rem);
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 2px solid #a7c957;
+  box-shadow: 0 4px 8px rgba(56, 102, 65, 0.12);
   width: 100%;
   box-sizing: border-box;
 }
 
 .content-section p {
   font-size: clamp(0.9rem, 2vw, 1rem);
-  color: #333;
+  color: #386641;
   line-height: 1.8;
   margin: 0;
 }

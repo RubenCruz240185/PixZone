@@ -1,16 +1,28 @@
 import "./Contenido.css"
+import Inicio from "./Inicio"
+import Galeria from "./Galeria"
+import Productos from "./Productos"
+import SobreNosotros from "./SobreNosotros"
 
-function Contenido() {
+function Contenido({ seccion }) {
+    const renderizarSeccion = () => {
+        switch(seccion) {
+            case "galeria":
+                return <Galeria />
+            case "productos":
+                return <Productos />
+            case "sobre":
+                return <SobreNosotros />
+            case "inicio":
+            default:
+                return <Inicio />
+        }
+    }
+
     return (
         <main className="contenido">
             <div className="container">
-                <section className="hero">
-                    <h2>Bienvenido a PixZone</h2>
-                    <p>Tu destino para descubrir y compartir imágenes increíbles. Explora nuestra galería de fotos, sube tus propias creaciones y conecta con una comunidad apasionada por la fotografía.</p>
-                </section>
-                <section className="content-section">
-                    <p>¡Únete a nosotros y comparte tu visión del mundo a través de las imágenes!</p>
-                </section>
+                {renderizarSeccion()}
             </div>
         </main>
     );
