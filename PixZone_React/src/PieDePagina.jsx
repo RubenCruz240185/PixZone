@@ -1,4 +1,6 @@
 import "./PieDePagina.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faInstagram, faXTwitter, faTiktok, faYoutube, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 function PieDePagina() {
     return (
@@ -12,12 +14,24 @@ function PieDePagina() {
 
                     <div className="footer-right">
                         <div className="socials">
-                            <a href="#" aria-label="Facebook" className="social">f</a>
-                            <a href="#" aria-label="Instagram" className="social">ig</a>
-                            <a href="#" aria-label="Twitter" className="social">t</a>
-                            <a href="#" aria-label="TikTok" className="social">tt</a>
-                            <a href="#" aria-label="YouTube" className="social">yt</a>
-                            <a href="#" aria-label="LinkedIn" className="social">in</a>
+                            <a href="#" aria-label="Facebook" className="social">
+                                <FontAwesomeIcon icon={faFacebook} />
+                            </a>
+                            <a href="#" aria-label="Instagram" className="social">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
+                            <a href="#" aria-label="Twitter" className="social">
+                                <FontAwesomeIcon icon={faXTwitter} />
+                            </a>
+                            <a href="#" aria-label="TikTok" className="social">
+                                <FontAwesomeIcon icon={faTiktok} />
+                            </a>
+                            <a href="#" aria-label="YouTube" className="social">
+                                <FontAwesomeIcon icon={faYoutube} />
+                            </a>
+                            <a href="#" aria-label="LinkedIn" className="social">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
                         </div>
 
                         <div className="right-links">
